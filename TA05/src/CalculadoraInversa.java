@@ -25,7 +25,9 @@ public class CalculadoraInversa {
 			break;
 		case("%"):
 			resultado = num1 % num2;
-			break;			
+			break;	
+		default:
+			JOptionPane.showMessageDialog(null,"Signo aritmético no válido");	
 		}
 		
 		JOptionPane.showMessageDialog(null,resultado);				

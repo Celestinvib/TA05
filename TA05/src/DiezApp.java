@@ -10,7 +10,7 @@ public class DiezApp {
 			sumaVentas += Integer.parseInt(JOptionPane.showInputDialog("Precio del producto "+i+"(€ Sin IVA):"));
 		}
 		
-		JOptionPane.showMessageDialog(null,"Suma de todas las ventas: "+(sumaVentas+(sumaVentas*0.21)+" €"));
+		JOptionPane.showMessageDialog(null,"Suma de todas las ventas(Con IVA): "+(sumaVentas+(sumaVentas*0.21)+" €"));
 	}
 
 }
