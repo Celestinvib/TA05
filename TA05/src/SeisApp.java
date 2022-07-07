@@ -7,6 +7,7 @@ public class SeisApp {
 		double precioP =Double.parseDouble(JOptionPane.showInputDialog("Introduce el precio del producto:"));
 		
 		JOptionPane.showMessageDialog(null,"Precio con IVA: "+(precioP+(precioP*IVA)));
+	
 	}
 
 }
