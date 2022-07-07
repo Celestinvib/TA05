@@ -10,7 +10,7 @@ public class DiezApp {
 			sumaVentas += Integer.parseInt(JOptionPane.showInputDialog("Introduce cuanto se ha ganado en la venta"+i+":"));
 		}
 		
-		JOptionPane.showMessageDialog(null,"Suma de todaas las ventas: "+sumaVentas);
+		JOptionPane.showMessageDialog(null,"Suma de todas las ventas: "+sumaVentas);
 	}
 
 }
